@@ -1,6 +1,6 @@
 Name:           perl-File-CheckTree
 Version:        4.42
-Release:        3%{?dist}
+Release:        2%{?dist}
 Summary:        Run many file-test checks on a tree
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -59,9 +59,6 @@ make test
 %{_mandir}/man3/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.42-3
-- Mass rebuild 2013-12-27
-
 * Tue May 28 2013 Petr Pisar <ppisar@redhat.com> - 4.42-2
 - Correct typo in dependencies
 
